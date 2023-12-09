@@ -13,14 +13,14 @@ int main()
 
 	for(s16 i=30; i>0; i--)
 	    {
-		SS_voidDisp2digts(DIO_PORTD,DIO_PORTB, i);
+		 SS_voidDisp2digts(DIO_PORTC,DIO_PORTA, i);
 		_delay_ms(1000);
 	    }
 	for(s16 i=30; i>0; i--)
-	    {
-		SS_voidDisp2digts(DIO_PORTA,DIO_PORTC, i);
-		_delay_ms(1000);
-		}
+		  {
+		 SS_voidDisp2digts(DIO_PORTD,DIO_PORTB, i);
+			_delay_ms(1000);
+		 }
 	}
 }
 
